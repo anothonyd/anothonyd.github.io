@@ -6,6 +6,7 @@
   box-sizing: border-box;
   color: white;
   font-family: "Poppins", sans-serif;
+  border: 1px solid black   ;
 }
 
 .background {
@@ -65,7 +66,7 @@ main > .background {
   display: flex;
   flex-direction: column;
   row-gap: 0.8rem;
-  left: 2%;
+  left: 1.5%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 100;
@@ -102,7 +103,11 @@ main > .background {
     min-width: auto;
     height: auto;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
+
 
 @media only screen and (min-width: 768px) {
   .title {
@@ -115,6 +120,9 @@ main > .background {
     flex-direction: column;
     min-width: auto;
     height: auto;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 
