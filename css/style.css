@@ -6,6 +6,7 @@
     box-sizing: border-box;
     color: white;
     font-family: "Poppins", sans-serif;
+    border: 1px solid black;
 }
 
 
@@ -155,14 +156,17 @@ main>.background {
         border-bottom: #000000c5 2px solid;
     }
     .card-title {
-        font-size: 7px;
+        font-size: 14px;
     }
     .card-text {
         text-shadow: none;
         color: #000000df;
-        font-size: 6px;
+        font-size: 10px;
+        height: 10vh;
     }
-}
+#three {overflow-y: scroll;}
+    }
+
 
 
 
