@@ -6,7 +6,7 @@
     box-sizing: border-box;
     color: white;
     font-family: "Poppins", sans-serif;
-    border: 1px solid black;
+    border: 1px solid green;
 }
 
 ion-icon {
@@ -126,6 +126,15 @@ main>.background {
         width: auto;
         height: auto;
     }
+
+    #vet {
+        border-top: #000000c5 2px solid;
+        border-left: none;
+    }
+
+    #logo {
+        border-bottom: #000000c5 2px solid;
+    }
 }
 
 body {
@@ -146,39 +155,45 @@ body {
         height: auto;
     }
 
+    #vet {
+        border-top: none;
+        border-left: #000000c5 2px solid;
+    }
+
     #logo {
-        width: 25rem;
-    }
-}
+        border-bottom: none;
 
-@media only screen and (min-width: 1024px) {
-
-    #top .title,
-    p {
-        width: 38%;
     }
 
-    .title {
-        font-size: 60px;
-        align-self: flex-start;
-    }
+    @media only screen and (min-width: 1024px) {
 
-    .carousel,
-    .carousel-inner {
-        display: flex;
-        flex-direction: row;
-        margin-right: 15px;
-        height: auto;
-    }
+        #top .title,
+        p {
+            width: 38%;
+        }
 
-    .hub {
-        display: flex;
-        flex-direction: row;
-    }
+        .title {
+            font-size: 60px;
+            align-self: flex-start;
+        }
 
-    .hubphoto {
-        display: flex;
-        flex-direction: column;
-        row-gap: 5rem;
+        .carousel,
+        .carousel-inner {
+            display: flex;
+            flex-direction: row;
+            margin-right: 15px;
+            height: auto;
+        }
+
+        .hub {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hubphoto {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+        }
     }
 }
