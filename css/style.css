@@ -6,7 +6,6 @@
     box-sizing: border-box;
     color: white;
     font-family: "Poppins", sans-serif;
-    border: 1px solid black;
 }
 
 
@@ -31,15 +30,9 @@ ion-icon:hover {
     top: 0;
 }
 
-#bottom {
-    display: flex;
-    padding-top: 3%;
-}
-
-
 .card {
     box-shadow: 2px 2px 5px;
-    border-radius: 15px;
+    border-radius: 5px;
     flex: 1;
     transition: 0.3s all ease;
 }
@@ -56,6 +49,16 @@ ion-icon:hover {
     border-bottom-right-radius: 0px;
 }
 
+
+.service {
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
 
 #footer {
     position: relative;
@@ -156,15 +159,15 @@ main>.background {
         border-bottom: #000000c5 2px solid;
     }
     .card-title {
-        font-size: 14px;
+        font-size: 15px;
     }
     .card-text {
         text-shadow: none;
         color: #000000df;
-        font-size: 10px;
+        font-size: 12px;
         height: 10vh;
     }
-#three {overflow-y: scroll;}
+#three, #four {overflow-y: scroll;}
     }
 
 
@@ -193,7 +196,7 @@ main>.background {
         border-bottom: none;
     }
     .card-title {
-        font-size: 13px;
+        font-size: 15px;
     }
     .card-text {
         text-shadow: none;
@@ -232,5 +235,12 @@ main>.background {
             flex-direction: column;
             row-gap: 5rem;
         }
+        .card-title {
+            font-size: 17px;
+        }
+        .card-text {
+            text-shadow: none;
+            color: #000000df;
+            font-size: 10px;
+        }
     }
-}
