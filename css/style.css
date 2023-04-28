@@ -8,6 +8,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 ion-icon {
     color: rgba(0, 0, 0, 0.9);
     width: 20px;
@@ -34,6 +35,7 @@ ion-icon:hover {
     padding-top: 3%;
 }
 
+
 .card {
     box-shadow: 2px 2px 5px;
     border-radius: 15px;
@@ -44,6 +46,15 @@ ion-icon:hover {
 .card:hover {
     flex: 5;
 }
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
 
 #footer {
     position: relative;
@@ -118,7 +129,7 @@ main>.background {
     text-shadow: none;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 250px) {
     html, body {
         overflow-x:hidden ;
     }
@@ -143,13 +154,21 @@ main>.background {
     #logo {
         border-bottom: #000000c5 2px solid;
     }
+    .card-title {
+        font-size: 7px;
+    }
+    .card-text {
+        text-shadow: none;
+        color: #000000df;
+        font-size: 6px;
+    }
 }
 
 
 
 @media only screen and (min-width: 768px) {
     .title {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .carousel,
@@ -168,18 +187,26 @@ main>.background {
 
     #logo {
         border-bottom: none;
-
     }
+    .card-title {
+        font-size: 13px;
+    }
+    .card-text {
+        text-shadow: none;
+        color: #000000df;
+        font-size: 12px;
+    }
+}
 
     @media only screen and (min-width: 1024px) {
 
         #top .title,
         p {
-            width: 40%;
+            width: 30%;
         }
 
         .title {
-            font-size: 60px;
+            font-size: 50px;
             align-self: flex-start;
         }
 
