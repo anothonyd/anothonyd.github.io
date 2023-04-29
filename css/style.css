@@ -150,8 +150,14 @@ main>.background {
         height: auto;
     }
 
+    #vetnav {
+        border-top: none;
+        border-bottom: #000000c5 2px solid;
+    }
+
+
     #vet {
-        border-top: #000000c5 2px solid;
+        border-bottom:none;
         border-left: none;
     }
 
@@ -185,6 +191,12 @@ main>.background {
         flex-direction: column;
         min-width: auto;
         height: auto;
+    }
+
+    #vetnav {
+        border-top: none;
+        border-bottom: none;
+
     }
 
     #vet {
